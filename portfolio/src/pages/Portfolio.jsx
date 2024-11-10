@@ -19,4 +19,6 @@ return(
         </div>
     </div>
 )//do these all need to be wrapped individually in divs?
-}
+};
+
+export default Portfolio;

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     return (
       <header>
-        <h1>Developer's Name</h1>
+        <h1>Nic Miller</h1>
         <nav>
             <ul>
                 <li><NavLink to="/" end>About Me</NavLink></li>
@@ -16,3 +16,5 @@ const Header = () => {
       </header>
     );
   }
+
+  export default Header;
