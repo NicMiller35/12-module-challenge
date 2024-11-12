@@ -1,12 +1,20 @@
+import '../styles/Footer.css';
+
+
 const Footer = () => {
     return (
-      <footer>
-        <ul>{/* insert own links here*/}
-          <li><a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-          <li><a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-          <li><a href="https://stackoverflow.com/users/your-profile" target="_blank" rel="noopener noreferrer">Stack Overflow</a></li>
-        </ul>
-      </footer>
+     <footer>
+        <a href="https://github.com/NicMiller35">
+                <img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="github" />
+            </a>
+            <a href="https://www.linkedin.com/in/nic-miller-878b8727b/">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin" />
+            </a>
+            <a href="https://stackoverflow.com/users/26842167/nic-miller">
+                <img src="https://img.icons8.com/color/48/000000/stackoverflow.png" alt="stackoverflow" />
+            </a>
+
+     </footer>
     );
   }
   

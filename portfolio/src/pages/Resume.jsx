@@ -1,6 +1,6 @@
 const Resume = () => {
     return (
-      <section id="resume">
+      <section class="resume">
         <h2>My Resume</h2>
         <a href="/path-to-resume.pdf" download>Download Resume</a>
         <ul>

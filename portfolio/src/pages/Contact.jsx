@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../styles/contact.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -19,8 +20,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
-      <h2>Contact Me</h2>
+    < div class="contact">
+      <h1>Contact Me</h1>
+      <p>Fill out the form below to get in touch with me!</p>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -44,7 +46,7 @@ const Contact = () => {
         {errors.message && <p>{errors.message}</p>}
         <button type="submit">Send</button>
       </form>
-    </section>
+    </div>
   );
 }
 
