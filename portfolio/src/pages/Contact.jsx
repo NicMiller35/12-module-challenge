@@ -1,5 +1,3 @@
-
-
 import { useState } from 'react';
 
 const Contact = () => {
@@ -8,7 +6,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Validation
+    
     const newErrors = {};
     if (!formData.name) newErrors.name = 'Name is required';
     if (!formData.email || !/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = 'Valid email is required';
@@ -16,7 +14,7 @@ const Contact = () => {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      // Form submission logic
+      
     }
   };
 
