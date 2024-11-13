@@ -5,15 +5,9 @@ export default function AboutMe() {
         <div class='about'>
             <h1>About Me</h1>
             <div class='about-content'>
-                <img class='aboutPic' src='src/assets/images.jpg' atl='Nic Miller' />
+                <img class='aboutPic' src='src/assets/profile2.JPG' atl='Nic Miller' />
                 <p class='about-text'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-                    tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-                    impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-                    architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-                    adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-                    mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-                    nostrum temporibus ad omnis nam rerum eligendi.
+                Hello! I’m Nic Miller, a passionate and driven developer currently training in full stack development. My journey into coding has been fueled by a love for problem-solving and a curiosity for how technology shapes our world. I'm building expertise in both front-end and back-end technologies, aiming to create seamless and user-friendly applications. With each project, I’m honing skills in languages, frameworks, and tools that make for efficient, scalable, and impactful software. I’m excited to keep learning and to connect with others in the tech community. Let’s build something great together!
                 </p>
             </div>
         </div>
