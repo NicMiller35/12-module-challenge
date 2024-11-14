@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     < div class="contact">
-      <h1>Contact Me</h1>
+      <h1 class= 'conth1'>Contact Me</h1>
       <p>Fill out the form below to get in touch with me!</p>
       <form onSubmit={handleSubmit}>
         <input
