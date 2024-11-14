@@ -1,4 +1,4 @@
-import "../styles/Resume.css";
+import "../styles/resume.css";
 
 
 const Resume = () => {
@@ -12,7 +12,7 @@ const Resume = () => {
         <li>CSS</li>
         <li>JavaScript</li>
         <li>React</li>
-        {/* List other skills */}
+        
       </ul>
       <h2>Back end development skills</h2>
       <ul>
