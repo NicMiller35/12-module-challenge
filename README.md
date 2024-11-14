@@ -10,7 +10,7 @@ This project is a portfolio for myself. It showcases my resume, completed projec
 - [Questions](#questions)
 ## Usage
 
-- 
+- <https://github.com/NicMiller35/12-module-challenge>
 - 
 ## Contribution
 Nic Miller
