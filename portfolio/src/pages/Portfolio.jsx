@@ -2,9 +2,8 @@ import React from "react";
 import Project from "../components/Project.jsx";
 import "../styles/portfolio.css";
 
-import "../styles/portfolio.css";
 
-//make my own projects
+
 
 const projects = [
     { title: "Weather Dashboard", image: '/assets/weather.png', url:"https://github.com/NicMiller35/9-module-challenge" },
