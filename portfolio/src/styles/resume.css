@@ -1,15 +1,130 @@
-
-.resume {
+  header {
+    background-color: #0F4C75; /* Deep Teal */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #FFD166; /* Soft Gold for contrast */
+    margin: 0;
+  }
+  
+  header nav {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: #FFD166; /* Soft Gold text */
+    font-size: 1.2em;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  header ul li a:hover {
+    color: #0F4C75; /* Deep Teal text */
+    background-color: #B0A8B9; /* Warm Gray */
+  }
+  
+  .about {
+    background: url('your-background-image.jpg') center/cover no-repeat, #FAF3E0; /* Light Ivory fallback */
+    color: #0F4C75; /* Deep Teal text */
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 209, 102, 0.5); /* Soft Gold overlay for contrast */
+    border-radius: 10px;
+  }
+  
+  .about-text {
+    width: 60%;
+    padding: 5px;
+  }
+  
+  .aboutPic {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .container {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(2, 1);
+    grid-gap: 20px;
+    width: 20%;
+    margin: 40px;
+    padding: 0px;
+    border: 1px solid #0F4C75; /* Deep Teal border */
+  }
+  
+  .porth1 {
+    background-color: #B0A8B9; /* Warm Gray */
+    color: #0F4C75; /* Deep Teal text */
+    margin: 0;
+  }
+  
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: #FAF3E0; /* Light Ivory */
+    min-height: 100vh;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAF3E0; /* Light Ivory */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .resume {
     width: 100%;
     padding: 2rem;
     margin: 0 auto;
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #A29587;
+    color: #0F4C75; /* Deep Teal */
+    background-color: #FAF3E0; /* Light Ivory */
+    min-height: 100vh;
   }
   
   .resume h2 {
-    color: #332E3C;
+    color: #FFD166; /* Soft Gold */
     margin-bottom: 10px;
   }
   
@@ -17,17 +132,17 @@
     display: inline-block;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #332E3C;
+    color: #0F4C75;
     text-decoration: none;
-    border: 2px solid #332E3C;
+    border: 2px solid #0F4C75;
     padding: 8px 12px;
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s;
   }
   
   .resume a:hover {
-    background-color: #846C5B;
-    color: #332E3C;
+    background-color: #FFD166;
+    color: #0F4C75;
   }
   
   .resume ul {
@@ -36,7 +151,7 @@
   }
   
   .resume ul h2 {
-    color: #332E3C;
+    color: #0F4C75;
     font-size: 1.6em;
     margin-top: 15px;
   }
@@ -49,12 +164,12 @@
   
   .resume li::before {
     content: "•";
-    color: #332E3C;
+    color: #0F4C75;
     position: absolute;
     left: 0;
   }
   
   .frontskill {
-    color: #332E3C;
-   
+    color: #0F4C75;
   }
+  
