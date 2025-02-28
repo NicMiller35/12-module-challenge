@@ -11,7 +11,7 @@
   header h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
-    color: #FFD166; /* Soft Gold for contrast */
+    color: #0F4C75; /* Soft Gold for contrast */
     margin: 0;
   }
   
@@ -29,7 +29,7 @@
   
   header ul li a {
     text-decoration: none;
-    color: #FFD166; /* Soft Gold text */
+    color: #0F4C75; /* Soft Gold text */
     font-size: 1.2em;
     padding: 10px;
     transition: color 0.3s ease, background-color 0.3s ease;
@@ -42,7 +42,7 @@
   }
   
   .about {
-    background: url('your-background-image.jpg') center/cover no-repeat, #FAF3E0; /* Light Ivory fallback */
+    background: url('./assets/paper.jpg') center/cover no-repeat, #FAF3E0; /* Light Ivory fallback */
     color: #0F4C75; /* Deep Teal text */
     font-family: 'Roboto', sans-serif;
     padding: 20px;
@@ -124,7 +124,7 @@
   }
   
   .resume h2 {
-    color: #FFD166; /* Soft Gold */
+    color: #0F4C75; /* Soft Gold */
     margin-bottom: 10px;
   }
   
